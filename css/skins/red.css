@@ -1,0 +1,36 @@
+.aside .logo a::before{
+    border-bottom: 4px solid #E43A6B;
+}
+.aside .logo a::after{
+    border-top: 4px solid #E43A6B;
+}
+
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text span,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+ color: #E43A6B;
+ }
+ 
+ .service .service-item .service-item-inner:hover .icon,
+ .about .about-content .timeline .circle-dot,
+ .about .about-content .timeline .timeline-item::before,
+ .about .about-content .skills .skill-item .progress-in,
+ .aside .nav-toggler span,
+ .aside .nav-toggler span::before,
+ .aside .nav-toggler span::after,
+ .home .intro .social-links a,
+ .section-title h2::before{
+    background-color:  #E43A6B;
+}
+
+.portfolio .portfolio-filter button.active{
+    border-color: #E43A6B;
+}

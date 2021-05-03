@@ -1,0 +1,100 @@
+:root{
+    /* --bg--opacity: rgba(255,255,255,0.5); */
+    --bg-color: #F7F6F1;
+    --title-color: #707070;
+    --text-color: #1F4D8F;
+    --button-color: #2E54B8;
+    --block-color: #ffffff;
+    --green: #24D9C2;
+}
+
+.style-switcher{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+    background-color: var(--block-color);
+    border-right: none;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.style-switcher i{
+    color: var(--button-color);
+}
+.style-switcher.open{
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.style-switcher h5{
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform:uppercase;
+    margin-bottom: 30px;
+
+   
+}
+.style-switcher ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+.style-switcher ul li{
+    margin: 10px auto;
+    max-width: 30px;
+}
+
+.style-switcher ul li a{
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 2px;
+
+}
+.style-switcher .toggle-style-switcher{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    background-color: var(--block-color);
+    left: -48px;
+    top: 150px;
+    text-align: center;
+    border: 1px solid var(--button-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.style-switcher .day-night{
+    height: 48px;
+    width: 48px;
+    background-color: var(--block-color);
+    text-align: center;
+    border: 1px solid var(--button-color);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+} 
+.style-switcher .toggle-style-switcher .fa{
+    font-size: 20px;
+    line-height: 43px;
+}
+.style-switcher .day-night i{
+    font-size: 16px;
+    line-height: 48px;
+}
+label{
+    display: inline-block;
+}
