@@ -561,15 +561,15 @@ transform: scale(4) rotate(45deg);
 
 
 .about .about-information  .education{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
     margin: 30px 0 0 0;
 }
 .about .about-information  .experience{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    max-width: 55%;
     margin: 30px 0 0 0;
 }
 .about .about-information  h3.title{
