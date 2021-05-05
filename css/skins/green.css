@@ -21,8 +21,9 @@ body.dark .aside .nav li a.active,
 .portfolio-popup .pp-prev,
 .portfolio-popup .pp-next,
 .portfolio-popup .pp-title .pp-next-btn,
-.portfolio-popup .pp-project-link a:hover i{
- color: var(--green);
+.portfolio-popup .pp-project-link a:hover i,
+.about .about-information .timeline .timeline-date{
+ color: #24D9C2;
  }
  
  .service .service-item .service-item-inner:hover .icon,

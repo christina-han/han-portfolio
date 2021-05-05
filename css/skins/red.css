@@ -1,9 +1,3 @@
-.aside .logo a::before{
-    border-bottom: 4px solid #E43A6B;
-}
-.aside .logo a::after{
-    border-top: 4px solid #E43A6B;
-}
 
 .contact .contact-info-item .icon .fa,
 .lightbox .lightbox-controls .prev-item .fa,
@@ -15,22 +9,40 @@
 body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
 .aside .nav li a:hover,
-.aside .nav li a.active{
+.menu_item-link:hover,
+.portfolio .portfolio-filter .filter-item:hover,
+.portfolio .portfolio-item .portfolio-item-inner p,
+.about .about-content .personal-info .btn .arrow-icon,
+.style-switcher i:hover,
+.contact .contact-info-item h4,
+.contact-form .btn:hover .arrow-icon,
+.portfolio-popup .pp-project-details-btn i,
+.portfolio-popup .pp-close,
+.portfolio-popup .pp-prev,
+.portfolio-popup .pp-next,
+.portfolio-popup .pp-title .pp-next-btn,
+.portfolio-popup .pp-project-link a:hover i,
+.about .about-information .timeline .timeline-date{
  color: #E43A6B;
  }
  
  .service .service-item .service-item-inner:hover .icon,
- .about .about-content .timeline .circle-dot,
- .about .about-content .timeline .timeline-item::before,
- .about .about-content .skills .skill-item .progress-in,
+ .about .about-information .timeline .circle-dot,
+ .about .about-information .timeline .timeline-item::before,
  .aside .nav-toggler span,
  .aside .nav-toggler span::before,
  .aside .nav-toggler span::after,
- .home .intro .social-links a,
- .section-title h2::before{
+ .section-title h2::before,
+ .about .about-title .social-links a{
     background-color:  #E43A6B;
 }
 
 .portfolio .portfolio-filter button.active{
     border-color: #E43A6B;
+}
+
+.aside .nav li a.active,
+.portfolio .portfolio-filter .filter-item.active{
+    text-decoration: line-through;
+    color: #E43A6B;
 }
