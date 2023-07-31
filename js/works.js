@@ -72,7 +72,7 @@ const works = [
         id: 8,
         title: 'Post Card',
         skills: ["Vue", "Javascript", "Canvas"],
-        about: "This web stands out by synthesizing users inputted well-wishes into captivating images. With a simple process, users can transform their heartfelt messages into visually appealing graphics and swiftly share them with loved ones through Line's official account.Elevates users greetings, making them more distinct and enjoyable, serving as the perfect tool to express emotions.",
+        about: "This web stands out by synthesizing users inputted well-wishes into captivating images. With a simple process, users can transform their heartfelt messages into visually appealing graphics and swiftly share them with loved ones through Line's official account. Elevates users greetings, making them more distinct and enjoyable, serving as the perfect tool to express emotions.",
         additional: ['Social Interaction', 'Lasting Memories', 'Brand Promotion'],
         function: ['Canvas', 'LINE API'],
         detail: 'images/works/web_post.png'
